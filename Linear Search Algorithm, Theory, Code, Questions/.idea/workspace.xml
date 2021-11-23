@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f378c5d6-3b47-4a3a-9ca9-b652863085a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ClassCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linear Search Algorithm Theory Code and Questions/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="f378c5d6-3b47-4a3a-9ca9-b652863085a7" name="Default Changelist" comment="Completing Linear Search.">
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/Binary Search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Binary Search/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633958159822</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completing Linear Search.">
+      <created>1635360871452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635360871452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,5 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Completing Linear Search." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Linear Search." />
   </component>
 </project>
