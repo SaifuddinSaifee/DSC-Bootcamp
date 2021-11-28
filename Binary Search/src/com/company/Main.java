@@ -53,8 +53,47 @@ public class Main {
             } else {
                 return mid;
             }
-
         }
         return -1;
     }
+
+    public static int orderAgnosticBinarySearch(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        //Find whether the array is sort in ascending or descending order
+        boolean isASC = (arr[start] < arr[end]);
+
+        while (start <= end) {
+            int mid = (start / 2) + (end / 2);
+
+            if (arr[mid] == target) {
+                return mid;
+            }
+
+            if (isASC) {
+                if (target < arr[mid]) {
+                    end = mid - 1;
+                } else if (target > arr[mid]) {
+                    start = mid + 1;
+                }
+            } else {
+                if (target < arr[mid]) {
+                    start = mid - 1;
+                } else if (target > arr[mid]) {
+                    end = mid + 1;
+                }
+            }
+
+            if (target < arr[mid]) {
+                end = mid - 1;
+            } else if (target > arr[mid]) {
+                start = mid + 1;
+            }
+
+        }
+        return -1;
+
+    }
+
 }
