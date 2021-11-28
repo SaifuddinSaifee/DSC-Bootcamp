@@ -61,7 +61,7 @@ public class Main {
         int start = 0;
         int end = arr.length - 1;
 
-        //Find whether the array is sort in ascending or descending order
+        //Find whether the array is sort in ascending or descending order and then find the target
         boolean isASC = (arr[start] < arr[end]);
 
         while (start <= end) {
